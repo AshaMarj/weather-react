@@ -33,9 +33,7 @@ function App() {
       </header>
       <br />
       <footer>
-        <a href="https://github.com/AshaMarj/my-weather-app">
-          open-source code
-        </a>
+        <a href="https://github.com/AshaMarj/weather-react">open-source code</a>
       </footer>
     </div>
   );
