@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Search from "./Search";
 
 function App() {
   return (
@@ -22,12 +23,7 @@ function App() {
 
         <h5>Wind Speed 55</h5>
 
-        <div className="Search">
-          <form>
-            <input type="Search" placeholder="Type a city" />
-            <input type="button" value="Search" />
-          </form>
-        </div>
+        <Search />
       </header>
       <br />
       <footer>
