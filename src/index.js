@@ -6,10 +6,6 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <h1>
-        San Miguel de Allende, <br />
-        Guanajuato, Mexico
-      </h1>
       <Search />
     </div>
   );
