@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import Search from "./Search";
-import reportWebVitals from "./reportWebVitals";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <h1>
+        San Miguel de Allende, <br />
+        Guanajuato, Mexico
+      </h1>
       <Search />
     </div>
   );
