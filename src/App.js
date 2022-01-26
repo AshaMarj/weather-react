@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Search from "./Search";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,19 +11,8 @@ function App() {
           Guanajuato, Mexico
         </h1>
 
-        <img
-          src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          alt="clear"
-          id="icon"
-        />
 
-        <h3> 73°C </h3>
-
-        <h4>Partly Cloudy</h4>
-
-        <h5>Wind Speed 55</h5>
-
-        <Search />
+       <Search />
       </header>
       <br />
       <footer>
