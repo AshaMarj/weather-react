@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.js";
 import React from "react";
 import Search from "./Search";
 
