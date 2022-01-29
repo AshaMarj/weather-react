@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function Search() {
   const [city, setCity] = useState("");
@@ -43,7 +44,12 @@ export default function Search() {
       <div>
         {form}
         <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
+          <li>
+            {" "}
+            <WeatherTemperature
+              celcius={Math.round(weather.temperature)}
+            />{" "}
+          </li>
           <li> Wind: {weather.wind} mph </li>
           <li> Humidity: {weather.humidity} % </li>
           <li>Description: {weather.description}</li>
