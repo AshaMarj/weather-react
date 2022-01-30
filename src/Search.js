@@ -47,7 +47,7 @@ export default function Search() {
           <li>
             {" "}
             <WeatherTemperature
-              celcius={Math.round(weather.temperature)}
+              celsius={Math.round(weather.temperature)}
             />{" "}
           </li>
           <li> Wind: {weather.wind} mph </li>
